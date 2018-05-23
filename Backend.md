@@ -10,3 +10,18 @@ The Swagger file follows the OpenAPI specification and describes each API endpoi
 
 Swagger tools can generate client side libraries in a number of languages, based on the `YAML` or `JSON` spec files. To generate files, `swagger-codegen` is required and can be used to create SDKs; if it is not supported, client tools can handle many other languages.
 
+### Prequisites
+
+1. PostgreSQL
+2. Python 3.6+
+
+### Running
+
+1. `git clone https://github.com/CitizenScienceCenter/cccs-connexion`
+2. cd cccs-connexion
+3. `virtualenv env` \(ensure Python3\)
+4. `source env/bin/activate`
+5. `pip install -r requirements.txt`
+6. 
+
+
