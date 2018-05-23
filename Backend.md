@@ -24,5 +24,13 @@ Swagger tools can generate client side libraries in a number of languages, based
 5. `pip install -r requirements.txt`
 6. Set your connection string in `config.py`
 
+The backend server will then be running in development on port **8080. **
+
+## TODO
+
+* Oauth support
+* Dev and production environments
+* Dockerise
+
 
 
