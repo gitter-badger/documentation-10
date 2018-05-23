@@ -22,6 +22,7 @@ Swagger tools can generate client side libraries in a number of languages, based
 3. `virtualenv env` \(ensure Python3\)
 4. `source env/bin/activate`
 5. `pip install -r requirements.txt`
-6. 
+6. Set your connection string in `config.py`
+
 
 
