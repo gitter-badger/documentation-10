@@ -5,7 +5,7 @@ install:
   - npm install
   - ./node_modules/gitbook-cli/bin/gitbook.js install
 script:
-  - ./node_modules/gitbook-cli/bin/gitbook.js build . docs
+  - ./node_modules/gitbook-cli/bin/gitbook.js build
 deploy:
   provider: pages
   skip_cleanup: true
@@ -13,6 +13,6 @@ deploy:
   commiter-from-gh: true
   keep_history: true
   github_token: $GH_TOKEN
-  local_dir: docs
+  local_dir: _books
   on:
     branch: master
