@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "directories": {
-    "doc": "docs"
+    "doc": "_books"
   },
   "dependencies": {
     "gitbook-plugin-theme-api": "^1.1.2"
@@ -25,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/CitizenScienceCenter/CitizenScienceCenter/issues"
   },
-  "homepage": "https://github.com/CitizenScienceCenter/CitizenScienceCenter#readme"
+  "homepage": "https://github.com/CitizenScienceCenter/CitizenScienceCenter#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gh-pages-travis": "gh-pages-travis"
+  }
 }
