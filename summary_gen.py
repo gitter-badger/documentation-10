@@ -2,7 +2,7 @@ import os, glob
 
 ROOT_DIR = '.'
 
-ignore = ['node_modules', '_book', '.git', 'img', 'docs']
+ignore_folders = ['node_modules', '_book', '.git', 'img', 'docs']
 
 summary = "# Summary \n\n"
 
@@ -22,7 +22,7 @@ def list_files(startpath):
     global summary
     all_files = glob.iglob(startpath + '**/*.md', recursive=True)
     for f in all_files:
-        if not 'node_modules' in f.lower():
+        if f.lower() not in ignore_folders:
             split_path = f.split('/')
             print(split_path, f)
             title = split_path[-1]
