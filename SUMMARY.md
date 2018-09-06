@@ -1,71 +1,69 @@
-# Summary 
+# C3S
 
-* [Summary](./SUMMARY.md) 
-* [Readme](./README.md) 
-  * [Frontend](./Frontend/README.md) 
-  * [Intro](./Intro/README.md) 
-   * [Adding_Tasks](./Tutorials/Adding_Tasks.md) 
-  * [Tutorials](./Tutorials/README.md) 
-   * [Project_Creation](./Tutorials/Project_Creation.md) 
-   * [Submitting_Submissions](./Tutorials/Submitting_Submissions.md) 
-   * [Development_Process](./Developers/Development_Process.md) 
-    * [Structure](./Developers/Frontend/Structure.md) 
-    * [Structure_Of_A_Component](./Developers/Frontend/Structure_of_a_Component.md) 
-   * [Frontend](./Developers/Frontend/README.md) 
-   * [Backend](./Developers/Backend/README.md) 
-   * [Mobile_Apps](./Developers/Mobile_Apps/README.md) 
-    * [Ios](./Developers/Mobile_Apps/iOS/README.md) 
-    * [Android](./Developers/Mobile_Apps/Android/README.md) 
-   * [Api](./Developers/API/README.md) 
-<!-- filetree -->
-
- - [README.md](./README.md)
-    - Citizen Science Center
-      - Who?
-      - How?
-      - What?
-      - Structure
-      - Technical Stuff
- - [SUMMARY.md](./SUMMARY.md)
-    - Summary
- - **Developers/**
-   - [Development_Process.md](./Developers/Development_Process.md)
-      - Development Process
-      - Code Review
-   - **API/**
-     - [README.md](./Developers/API/README.md)
-        - API
-   - **Backend/**
-     - [README.md](./Developers/Backend/README.md)
-        - Backend
-          - Swagger
-            - SDK Generation
-            - Prequisites
-            - Running
-          - TODO
-   - **Frontend/**
-     - [README.md](./Developers/Frontend/README.md)
-        - Frontend
-     - [Structure.md](./Developers/Frontend/Structure.md)
-        - App Structure
-     - [Structure_of_a_Component.md](./Developers/Frontend/Structure_of_a_Component.md)
-        - Structure of a Component
-   - **Mobile_Apps/**
-     - [README.md](./Developers/Mobile_Apps/README.md)
-     - **Android/**
-       - [README.md](./Developers/Mobile_Apps/Android/README.md)
-     - **iOS/**
-       - [README.md](./Developers/Mobile_Apps/iOS/README.md)
- - **Frontend/**
-   - [README.md](./Frontend/README.md)
-      - Frontend
- - **Intro/**
-   - [README.md](./Intro/README.md)
-      - What is the Citizen Science Center in Zurich?
- - **Tutorials/**
-   - [Adding_Tasks.md](./Tutorials/Adding_Tasks.md)
-   - [Project_Creation.md](./Tutorials/Project_Creation.md)
-   - [README.md](./Tutorials/README.md)
-   - [Submitting_Submissions.md](./Tutorials/Submitting_Submissions.md)
-
-<!-- filetreestop -->
+- Book
+  - Developers
+    - [API](_book/Developers/API/README.md)
+    - [Backend](_book/Developers/Backend/README.md)
+    - [Frontend](_book/Developers/Frontend/README.md)
+      * [Structure Of A Component](_book/Developers/Frontend/Structure_of_a_Component.md)
+      * [Structure](_book/Developers/Frontend/Structure.md)
+    - [Mobile Apps](_book/Developers/Mobile_Apps/README.md)
+      - [Android](_book/Developers/Mobile_Apps/Android/README.md)
+      - [I OS](_book/Developers/Mobile_Apps/iOS/README.md)
+    * [Development Process](_book/Developers/Development_Process.md)
+  - Docs
+    - Developers
+      - [API](_book/docs/Developers/API/README.md)
+      - [Backend](_book/docs/Developers/Backend/README.md)
+      - [Frontend](_book/docs/Developers/Frontend/README.md)
+        * [Structure Of A Component](_book/docs/Developers/Frontend/Structure_of_a_Component.md)
+        * [Structure](_book/docs/Developers/Frontend/Structure.md)
+      - [Mobile Apps](_book/docs/Developers/Mobile_Apps/README.md)
+        - [Android](_book/docs/Developers/Mobile_Apps/Android/README.md)
+        - [I OS](_book/docs/Developers/Mobile_Apps/iOS/README.md)
+      * [Development Process](_book/docs/Developers/Development_Process.md)
+    - [Frontend](_book/docs/Frontend/README.md)
+    - [Intro](_book/docs/Intro/README.md)
+    - [Tutorials](_book/docs/Tutorials/README.md)
+      * [Adding Tasks](_book/docs/Tutorials/Adding_Tasks.md)
+      * [Project Creation](_book/docs/Tutorials/Project_Creation.md)
+      * [Submitting Submissions](_book/docs/Tutorials/Submitting_Submissions.md)
+  - [Frontend](_book/Frontend/README.md)
+  - [Intro](_book/Intro/README.md)
+  - [Tutorials](_book/Tutorials/README.md)
+    * [Adding Tasks](_book/Tutorials/Adding_Tasks.md)
+    * [Project Creation](_book/Tutorials/Project_Creation.md)
+    * [Submitting Submissions](_book/Tutorials/Submitting_Submissions.md)
+- Developers
+  - [API](Developers/API/README.md)
+  - [Backend](Developers/Backend/README.md)
+  - [Frontend](Developers/Frontend/README.md)
+    * [Structure Of A Component](Developers/Frontend/Structure_of_a_Component.md)
+    * [Structure](Developers/Frontend/Structure.md)
+  - [Mobile Apps](Developers/Mobile_Apps/README.md)
+    - [Android](Developers/Mobile_Apps/Android/README.md)
+    - [I OS](Developers/Mobile_Apps/iOS/README.md)
+  * [Development Process](Developers/Development_Process.md)
+- Docs
+  - Developers
+    - [API](docs/Developers/API/README.md)
+    - [Backend](docs/Developers/Backend/README.md)
+    - [Frontend](docs/Developers/Frontend/README.md)
+      * [Structure Of A Component](docs/Developers/Frontend/Structure_of_a_Component.md)
+      * [Structure](docs/Developers/Frontend/Structure.md)
+    - [Mobile Apps](docs/Developers/Mobile_Apps/README.md)
+      - [Android](docs/Developers/Mobile_Apps/Android/README.md)
+      - [I OS](docs/Developers/Mobile_Apps/iOS/README.md)
+    * [Development Process](docs/Developers/Development_Process.md)
+  - [Frontend](docs/Frontend/README.md)
+  - [Intro](docs/Intro/README.md)
+  - [Tutorials](docs/Tutorials/README.md)
+    * [Adding Tasks](docs/Tutorials/Adding_Tasks.md)
+    * [Project Creation](docs/Tutorials/Project_Creation.md)
+    * [Submitting Submissions](docs/Tutorials/Submitting_Submissions.md)
+- [Frontend](Frontend/README.md)
+- [Intro](Intro/README.md)
+- [Tutorials](Tutorials/README.md)
+  * [Adding Tasks](Tutorials/Adding_Tasks.md)
+  * [Project Creation](Tutorials/Project_Creation.md)
+  * [Submitting Submissions](Tutorials/Submitting_Submissions.md)

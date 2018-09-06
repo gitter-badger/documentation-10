@@ -7,7 +7,8 @@
     "doc": "_books"
   },
   "dependencies": {
-    "gitbook-plugin-theme-api": "^1.1.2"
+    "gitbook-plugin-theme-api": "^1.1.2",
+    "gitbook-summary": "^1.2.2"
   },
   "devDependencies": {
     "gh-pages-travis": "^1.0.4",
