@@ -5,7 +5,7 @@ install:
   - npm install
   - ./node_modules/gitbook-cli/bin/gitbook.js install
 script:
-  - ./node_modules/gitbook-cli/bin/gitbook.js build . docs/
+  - ./node_modules/gitbook-cli/bin/gitbook.js build
 deploy:
   provider: pages
   skip_cleanup: true
