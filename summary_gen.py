@@ -17,22 +17,29 @@ summary = "# Summary \n\n"
 #             if 'README.md' is entry.name:
 #                 summary = "* [{0}]({2}) \n"
 #             files.append(entry.path)
+sections = []
+
 
 def list_files(startpath):
     global summary
+    sections = []
     all_files = glob.iglob(startpath + '**/*.md', recursive=True)
     for f in all_files:
         if f.lower() not in ignore_folders:
             split_path = f.split('/')
             print(split_path, f)
             title = split_path[-1]
+            section = {
+                'section': title
+            }
             level = 0
             if len(split_path) > 2:
                 title = split_path[-1] if 'readme' not in split_path[-1].lower() else split_path[-2]
                 formatted = f.lower().replace('/readme.md', '').split('/')
-                level = len(formatted) if not 'readme' in f.lower() else len(formatted) - 2
+                level = len(formatted) if not 'readme' in f.lower() else len(formatted)
+                print(level)
             title = title.replace('.md', '').title()
-            summary += "{0}* [{1}]({2}) \n".format(' ' * (level * 2), title, f)
+            summary += "{0}* [{1}]({2}) \n".format(' ' * (level), title, f)
     print(summary)
     return summary
 
