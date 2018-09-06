@@ -5,6 +5,7 @@ install:
   - npm install
   - ./node_modules/gitbook-cli/bin/gitbook.js install
 script:
+  - ./node_modules/gitbook-summary/bin/summary.js sm -t C3S -i ignore node_modules
   - ./node_modules/gitbook-cli/bin/gitbook.js build . docs/
 deploy:
   provider: pages
