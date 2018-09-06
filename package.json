@@ -1,0 +1,31 @@
+{
+  "name": "citizensciencecenter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-theme-api": "^1.1.2",
+    "gitbook-summary": "^1.2.2"
+  },
+  "devDependencies": {
+    "gh-pages-travis": "^1.0.4",
+    "gitbook-cli": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CitizenScienceCenter/CitizenScienceCenter.git"
+  },
+  "author": "Chris Gwilliams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CitizenScienceCenter/CitizenScienceCenter/issues"
+  },
+  "homepage": "https://github.com/CitizenScienceCenter/CitizenScienceCenter#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gh-pages-travis": "gh-pages-travis"
+  }
+}
