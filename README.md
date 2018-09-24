@@ -1,5 +1,7 @@
 # Citizen Science Center
 
+[![Join the chat at https://gitter.im/CitizenScienceCenter/documentation](https://badges.gitter.im/CitizenScienceCenter/documentation.svg)](https://gitter.im/CitizenScienceCenter/documentation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Who?
 
 We are a Competence Center that is joint with UZH and ETH in Switzerland. The goal of the center is to develop and utilise existing crowd sourcing tools to enable researchers to access the power of the crowd.
